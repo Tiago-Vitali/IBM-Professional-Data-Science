@@ -1,0 +1,7 @@
+www.darkhorseanalytics.com - site com dicas de como montar gráficos mais limpos visualmente
+
+- usar o comando %matplotlib notebook permite adicionar itens como título e nome dos eixos após um gráfico ter sido criado, o que não é possível de outra forma;
+-O Pandas tem uma função built-in do matplotlib do tipo: df.plot(kind="tipo do gráfico");
+-Quando usar um gráfico de linhas? Resposta: Quando se possui dados contínuos distribuídos no tempo. Deve ser limitado a 5 a 10 linhas no máximo;
+
+Site com explicações sobre decorators em python: https://realpython.com/primer-on-python-decorators/
