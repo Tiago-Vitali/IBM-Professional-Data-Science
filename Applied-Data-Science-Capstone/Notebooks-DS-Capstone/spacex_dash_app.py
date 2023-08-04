@@ -74,7 +74,7 @@ def get_pie_chart(entered_site):
         return fig
     else:
         fig = px.pie(filtered_df.value_counts().to_frame().reset_index(),
-        values = 'count',
+        values = 'Unnamed: 0',
         names ='class',
         title='Total Success Launches for site ' + entered_site)
         return fig
